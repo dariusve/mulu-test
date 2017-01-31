@@ -1,0 +1,661 @@
+2017-01-28 16:04:37 Error: [ParseError] syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'
+Request URL: /mulu-test/
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\lib\Cake\View\View.php(933): View->_evaluate('C:\\Apache24\\htd...', Array)
+#1 C:\Apache24\htdocs\mulu-test\lib\Cake\View\View.php(546): View->_render('C:\\Apache24\\htd...')
+#2 C:\Apache24\htdocs\mulu-test\lib\Cake\View\View.php(481): View->renderLayout('<h2>Release Not...', 'default')
+#3 C:\Apache24\htdocs\mulu-test\lib\Cake\Controller\Controller.php(963): View->render('home', 'default')
+#4 C:\Apache24\htdocs\mulu-test\app\Controller\PagesController.php(72): Controller->render('home')
+#5 [internal function]: PagesController->display('home')
+#6 C:\Apache24\htdocs\mulu-test\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#7 C:\Apache24\htdocs\mulu-test\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\Apache24\htdocs\mulu-test\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2017-01-28 16:04:37 Error: Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+2017-01-28 16:04:37 Error: [FatalErrorException] Exception thrown without a stack frame
+Request URL: /mulu-test/
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 C:\Apache24\htdocs\mulu-test\lib\Cake\Core\App.php(970): ErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 C:\Apache24\htdocs\mulu-test\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-01-28 16:45:59 Error: [MissingControllerException] Controller class AgentsController could not be found.
+Exception Attributes: array (
+  'class' => 'AgentsController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/agents/groupContacts/33166
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-28 16:55:37 Error: [Error] Cannot use object of type stdClass as array
+Request URL: /mulu-test/agents/groupContacts/336/0
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\Controller\AgentsController.php(47): AgentsController->getLocation('336')
+#1 [internal function]: AgentsController->groupContacts('336', '0')
+#2 C:\Apache24\htdocs\mulu-test\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(AgentsController), Array)
+#3 C:\Apache24\htdocs\mulu-test\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 C:\Apache24\htdocs\mulu-test\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AgentsController), Object(CakeRequest))
+#5 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2017-01-28 17:57:42 Error: [Error] Call to undefined function split()
+Request URL: /mulu-test/agents/groupContacts/33166/0
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\Controller\AgentsController.php(78): AgentsController->loadFile()
+#1 [internal function]: AgentsController->groupContacts('33166', '0')
+#2 C:\Apache24\htdocs\mulu-test\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(AgentsController), Array)
+#3 C:\Apache24\htdocs\mulu-test\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 C:\Apache24\htdocs\mulu-test\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AgentsController), Object(CakeRequest))
+#5 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2017-01-28 17:59:46 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\Apache24\htdocs\mulu-test\app\Controller\AgentsController.php, line 36]
+2017-01-28 17:59:46 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /mulu-test/agents/groupContacts/33166/0
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\\Apache24\\htd...', 36)
+#1 C:\Apache24\htdocs\mulu-test\lib\Cake\Core\App.php(970): ErrorHandler::handleError(1, 'Maximum executi...', 'C:\\Apache24\\htd...', 36, Array)
+#2 C:\Apache24\htdocs\mulu-test\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-01-28 18:09:21 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\Apache24\htdocs\mulu-test\app\Controller\AgentsController.php, line 36]
+2017-01-28 18:09:21 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /mulu-test/agents/groupContacts/33166/0
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\\Apache24\\htd...', 36)
+#1 C:\Apache24\htdocs\mulu-test\lib\Cake\Core\App.php(970): ErrorHandler::handleError(1, 'Maximum executi...', 'C:\\Apache24\\htd...', 36, Array)
+#2 C:\Apache24\htdocs\mulu-test\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-01-28 18:12:46 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\Apache24\htdocs\mulu-test\app\Controller\AgentsController.php, line 36]
+2017-01-28 18:12:46 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /mulu-test/agents/groupContacts/33166/0
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\\Apache24\\htd...', 36)
+#1 C:\Apache24\htdocs\mulu-test\lib\Cake\Core\App.php(970): ErrorHandler::handleError(1, 'Maximum executi...', 'C:\\Apache24\\htd...', 36, Array)
+#2 C:\Apache24\htdocs\mulu-test\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-01-28 18:13:56 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\Apache24\htdocs\mulu-test\app\Controller\AgentsController.php, line 36]
+2017-01-28 18:13:56 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /mulu-test/agents/groupContacts/33166/0
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\\Apache24\\htd...', 36)
+#1 C:\Apache24\htdocs\mulu-test\lib\Cake\Core\App.php(970): ErrorHandler::handleError(1, 'Maximum executi...', 'C:\\Apache24\\htd...', 36, Array)
+#2 C:\Apache24\htdocs\mulu-test\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-01-28 18:21:38 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\Apache24\htdocs\mulu-test\app\Controller\AgentsController.php, line 36]
+2017-01-28 18:21:38 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /mulu-test/agents/groupContacts/33166/0
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\\Apache24\\htd...', 36)
+#1 C:\Apache24\htdocs\mulu-test\lib\Cake\Core\App.php(970): ErrorHandler::handleError(1, 'Maximum executi...', 'C:\\Apache24\\htd...', 36, Array)
+#2 C:\Apache24\htdocs\mulu-test\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-01-28 18:23:39 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\Apache24\htdocs\mulu-test\app\Controller\AgentsController.php, line 36]
+2017-01-28 18:23:39 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /mulu-test/agents/groupContacts/33166/0
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\\Apache24\\htd...', 36)
+#1 C:\Apache24\htdocs\mulu-test\lib\Cake\Core\App.php(970): ErrorHandler::handleError(1, 'Maximum executi...', 'C:\\Apache24\\htd...', 36, Array)
+#2 C:\Apache24\htdocs\mulu-test\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-01-28 18:25:03 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\Apache24\htdocs\mulu-test\app\Controller\AgentsController.php, line 36]
+2017-01-28 18:25:03 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /mulu-test/agents/groupContacts/33166/0
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\\Apache24\\htd...', 36)
+#1 C:\Apache24\htdocs\mulu-test\lib\Cake\Core\App.php(970): ErrorHandler::handleError(1, 'Maximum executi...', 'C:\\Apache24\\htd...', 36, Array)
+#2 C:\Apache24\htdocs\mulu-test\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-01-28 18:26:05 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\Apache24\htdocs\mulu-test\app\Controller\AgentsController.php, line 36]
+2017-01-28 18:26:05 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /mulu-test/agents/groupContacts/33166/0
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\\Apache24\\htd...', 36)
+#1 C:\Apache24\htdocs\mulu-test\lib\Cake\Core\App.php(970): ErrorHandler::handleError(1, 'Maximum executi...', 'C:\\Apache24\\htd...', 36, Array)
+#2 C:\Apache24\htdocs\mulu-test\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-01-28 18:28:45 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\Apache24\htdocs\mulu-test\lib\Cake\Error\ErrorHandler.php, line 207]
+2017-01-28 18:28:45 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /mulu-test/agents/groupContacts/33166/0
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\\Apache24\\htd...', 207)
+#1 C:\Apache24\htdocs\mulu-test\lib\Cake\Core\App.php(970): ErrorHandler::handleError(1, 'Maximum executi...', 'C:\\Apache24\\htd...', 207, Array)
+#2 C:\Apache24\htdocs\mulu-test\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-01-28 18:30:39 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\Apache24\htdocs\mulu-test\app\Controller\AgentsController.php, line 37]
+2017-01-28 18:30:39 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /mulu-test/agents/groupContacts/33166/0
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\\Apache24\\htd...', 37)
+#1 C:\Apache24\htdocs\mulu-test\lib\Cake\Core\App.php(970): ErrorHandler::handleError(1, 'Maximum executi...', 'C:\\Apache24\\htd...', 37, Array)
+#2 C:\Apache24\htdocs\mulu-test\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-01-28 18:31:10 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\Apache24\htdocs\mulu-test\app\Controller\AgentsController.php, line 37]
+2017-01-28 18:31:10 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /mulu-test/agents/groupContacts/33166/0
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\\Apache24\\htd...', 37)
+#1 C:\Apache24\htdocs\mulu-test\lib\Cake\Core\App.php(970): ErrorHandler::handleError(1, 'Maximum executi...', 'C:\\Apache24\\htd...', 37, Array)
+#2 C:\Apache24\htdocs\mulu-test\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-01-28 18:31:38 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\Apache24\htdocs\mulu-test\app\Controller\AgentsController.php, line 37]
+2017-01-28 18:31:38 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /mulu-test/agents/groupContacts/33166/0
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\\Apache24\\htd...', 37)
+#1 C:\Apache24\htdocs\mulu-test\lib\Cake\Core\App.php(970): ErrorHandler::handleError(1, 'Maximum executi...', 'C:\\Apache24\\htd...', 37, Array)
+#2 C:\Apache24\htdocs\mulu-test\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-01-28 18:33:20 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\Apache24\htdocs\mulu-test\app\Controller\AgentsController.php, line 37]
+2017-01-28 18:33:20 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /mulu-test/agents/groupContacts/33166/0
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\\Apache24\\htd...', 37)
+#1 C:\Apache24\htdocs\mulu-test\lib\Cake\Core\App.php(970): ErrorHandler::handleError(1, 'Maximum executi...', 'C:\\Apache24\\htd...', 37, Array)
+#2 C:\Apache24\htdocs\mulu-test\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-01-28 19:07:49 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\Apache24\htdocs\mulu-test\app\Controller\AgentsController.php, line 37]
+2017-01-28 19:07:49 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /mulu-test/agents/groupContacts/33166/0
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\\Apache24\\htd...', 37)
+#1 C:\Apache24\htdocs\mulu-test\lib\Cake\Core\App.php(970): ErrorHandler::handleError(1, 'Maximum executi...', 'C:\\Apache24\\htd...', 37, Array)
+#2 C:\Apache24\htdocs\mulu-test\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-01-28 19:09:19 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\Apache24\htdocs\mulu-test\app\Controller\AgentsController.php, line 37]
+2017-01-28 19:09:19 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /mulu-test/agents/groupContacts/33166/0
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\\Apache24\\htd...', 37)
+#1 C:\Apache24\htdocs\mulu-test\lib\Cake\Core\App.php(970): ErrorHandler::handleError(1, 'Maximum executi...', 'C:\\Apache24\\htd...', 37, Array)
+#2 C:\Apache24\htdocs\mulu-test\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-01-28 19:52:34 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\Apache24\htdocs\mulu-test\app\Controller\AgentsController.php, line 37]
+2017-01-28 19:52:34 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /mulu-test/agents/groupContacts/33166/0
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\\Apache24\\htd...', 37)
+#1 C:\Apache24\htdocs\mulu-test\lib\Cake\Core\App.php(970): ErrorHandler::handleError(1, 'Maximum executi...', 'C:\\Apache24\\htd...', 37, Array)
+#2 C:\Apache24\htdocs\mulu-test\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-01-28 23:43:19 Error: Fatal Error (1): Maximum execution time of 100 seconds exceeded in [C:\Apache24\htdocs\mulu-test\app\Controller\AgentsController.php, line 37]
+2017-01-28 23:43:19 Error: [FatalErrorException] Maximum execution time of 100 seconds exceeded
+Request URL: /mulu-test/agents/groupContacts/33166/0
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\\Apache24\\htd...', 37)
+#1 C:\Apache24\htdocs\mulu-test\lib\Cake\Core\App.php(970): ErrorHandler::handleError(1, 'Maximum executi...', 'C:\\Apache24\\htd...', 37, Array)
+#2 C:\Apache24\htdocs\mulu-test\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-01-29 04:05:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/css/style.css
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-29 04:06:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/css/gfonts/opensans/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-29 04:06:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/css/gfonts/opensans/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-29 04:06:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/css/gfonts/opensans/MTP_ySUJH_bn48VBG8sNSugdm0LZdjqr5-oayXSOefg.woff2
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-29 04:06:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/css/gfonts/opensans/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-29 04:06:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/css/gfonts/opensans/OpenSans-Semibold.ttf
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-29 04:07:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/css/gfonts/opensans/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-29 04:07:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/css/gfonts/opensans/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-29 04:07:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/css/gfonts/opensans/MTP_ySUJH_bn48VBG8sNSugdm0LZdjqr5-oayXSOefg.woff2
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-29 04:07:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/css/gfonts/opensans/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-29 04:07:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/css/gfonts/opensans/OpenSans-Semibold.ttf
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-29 04:09:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/css/gfonts/opensans/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-29 04:09:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/css/gfonts/opensans/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-29 04:09:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/css/gfonts/opensans/MTP_ySUJH_bn48VBG8sNSugdm0LZdjqr5-oayXSOefg.woff2
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-29 04:09:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/css/gfonts/opensans/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-29 04:09:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/css/gfonts/opensans/OpenSans-Semibold.ttf
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-29 04:11:14 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/css/gfonts/opensans/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-29 04:11:14 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/css/gfonts/opensans/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-29 04:11:14 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/css/gfonts/opensans/MTP_ySUJH_bn48VBG8sNSugdm0LZdjqr5-oayXSOefg.woff2
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-29 04:11:14 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/css/gfonts/opensans/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-29 04:11:14 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/css/gfonts/opensans/OpenSans-Semibold.ttf
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-29 04:11:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/css/gfonts/opensans/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-29 04:11:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/css/gfonts/opensans/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-29 04:11:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/css/gfonts/opensans/MTP_ySUJH_bn48VBG8sNSugdm0LZdjqr5-oayXSOefg.woff2
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-29 04:11:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/css/gfonts/opensans/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-29 04:11:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/css/gfonts/opensans/OpenSans-Semibold.ttf
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-29 04:12:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/css/gfonts/opensans/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-29 04:12:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/css/gfonts/opensans/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-29 04:12:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/css/gfonts/opensans/MTP_ySUJH_bn48VBG8sNSugdm0LZdjqr5-oayXSOefg.woff2
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-29 04:12:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/css/gfonts/opensans/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-29 04:12:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/css/gfonts/opensans/OpenSans-Semibold.ttf
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-29 04:14:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/css/gfonts/opensans/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-29 04:14:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/css/gfonts/opensans/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-29 04:14:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/css/gfonts/opensans/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-29 04:14:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/css/gfonts/opensans/MTP_ySUJH_bn48VBG8sNSugdm0LZdjqr5-oayXSOefg.woff2
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-29 04:14:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/css/gfonts/opensans/OpenSans-Semibold.ttf
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-29 04:14:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/css/gfonts/opensans/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-29 04:14:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/css/gfonts/opensans/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-29 04:14:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/css/gfonts/opensans/MTP_ySUJH_bn48VBG8sNSugdm0LZdjqr5-oayXSOefg.woff2
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-29 04:14:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/css/gfonts/opensans/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-29 04:14:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/css/gfonts/opensans/OpenSans-Semibold.ttf
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-29 04:15:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/css/gfonts/opensans/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-29 04:15:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/css/gfonts/opensans/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-29 04:15:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/css/gfonts/opensans/MTP_ySUJH_bn48VBG8sNSugdm0LZdjqr5-oayXSOefg.woff2
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-29 04:15:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/css/gfonts/opensans/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-29 04:15:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mulu-test/css/gfonts/opensans/OpenSans-Semibold.ttf
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-29 04:46:25 Error: [ParseError] syntax error, unexpected '}'
+Request URL: /mulu-test/agents/groupContacts/33166/0
+Stack Trace:
+#0 [internal function]: App::load('AgentsControlle...')
+#1 [internal function]: spl_autoload_call('AgentsControlle...')
+#2 C:\Apache24\htdocs\mulu-test\lib\Cake\Routing\Dispatcher.php(266): class_exists('AgentsControlle...')
+#3 C:\Apache24\htdocs\mulu-test\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\Apache24\htdocs\mulu-test\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2017-01-29 05:16:24 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /mulu-test/agents/groupContacts/33166/0
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\lib\Cake\View\View.php(933): View->_evaluate('C:\\Apache24\\htd...', Array)
+#1 C:\Apache24\htdocs\mulu-test\lib\Cake\View\View.php(473): View->_render('C:\\Apache24\\htd...')
+#2 C:\Apache24\htdocs\mulu-test\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#3 C:\Apache24\htdocs\mulu-test\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\Apache24\htdocs\mulu-test\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AgentsController), Object(CakeRequest))
+#5 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2017-01-29 18:42:46 Error: [MissingActionException] Action AgentsController::group_contacts() could not be found.
+Exception Attributes: array (
+  'controller' => 'AgentsController',
+  'action' => 'group_contacts',
+)
+Request URL: /mulu-test/
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Apache24\htdocs\mulu-test\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AgentsController), Object(CakeRequest))
+#2 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-01-29 18:43:18 Error: [MissingActionException] Action AgentsController::group_contacts() could not be found.
+Exception Attributes: array (
+  'controller' => 'AgentsController',
+  'action' => 'group_contacts',
+)
+Request URL: /mulu-test/
+Stack Trace:
+#0 C:\Apache24\htdocs\mulu-test\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Apache24\htdocs\mulu-test\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AgentsController), Object(CakeRequest))
+#2 C:\Apache24\htdocs\mulu-test\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
